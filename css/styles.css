@@ -8,7 +8,13 @@ body {
   color: #212121;
   letter-spacing: 0.03em;
 }
-
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
 ul {
   list-style-type: none;
 }
@@ -36,10 +42,19 @@ ul {
   line-height: 1.875;
   font-weight: 700;
   background-color: var(--main-link-color);
-  display: flex;
+  /* display: flex;   */
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
+  /* position: absolute; */
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 420px;
+  margin-right: 700px;
+  margin-bottom: 430px;
+  justify-content: center;
+  align-content: center;
 }
 .button.port {
   line-height: 1.26;
@@ -71,6 +86,7 @@ ul {
   line-height: 1.17;
   font-weight: 500;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .team {
@@ -97,6 +113,12 @@ nav .link {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  margin-left: 452px;
+  margin-top: 200px;
+  text-align: center;
 }
 
 .h5 {
@@ -170,9 +192,20 @@ nav .link {
 }
 .navigation-panel {
   background-color: var(--main-background-color);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ececec;
 }
 .header {
   background-color: #2f303a;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 600px;
+  display: flex;
 }
 .blue {
   color: var(--main-link-color);
@@ -184,4 +217,35 @@ nav .link {
 }
 .figure-proffesion {
   border: 1px solid #eeeeee;
+}
+
+.menu {
+  display: flex;
+  flex-grow: 1;
+  max-width: 20%;
+  justify-content: space-between;
+}
+.menu1 {
+  display: flex;
+  flex-grow: 1;
+  max-width: 40%;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.main-portfolio {
+  padding-top: 94px;
+}
+.images-list {
+  flex-wrap: wrap;
+}
+.lorem-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.lorem-item {
+  flex-basis: calc((100%-90px) / 4);
 }
