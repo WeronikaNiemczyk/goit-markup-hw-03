@@ -272,9 +272,10 @@ nav .link {
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
+  flex-basis: calc((100%-90) / 4);
 }
 .lorem-item {
-  flex-basis: 270px;
+  /* flex-basis: 270px; */
 }
 
 .images-list {
@@ -282,6 +283,7 @@ nav .link {
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
+  flex-basis: calc((100%-60) / 3);
 }
 
 .logo-with-nav {
@@ -298,6 +300,7 @@ nav .link {
 .our-team {
   display: flex;
   gap: 30px;
+  flex-basis: calc((100%-90) / 4);
 }
 .section {
   padding-top: 94px;
