@@ -52,6 +52,7 @@ ul {
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
+  
 }
 .button.port {
   line-height: 1.26;
@@ -76,6 +77,7 @@ ul {
   word-spacing: 0.03;
   color: #000000;
   font-family: "Raleway";
+  margin-right: 93px;
 }
 
 .navigation {
@@ -84,6 +86,8 @@ ul {
   font-weight: 500;
   letter-spacing: 0.02em;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .team {
@@ -96,6 +100,8 @@ nav .link {
   font-size: 14px;
   line-height: 1.17;
   font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 .contact {
   font-size: 14px;
@@ -111,12 +117,20 @@ nav .link {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+ 
+  padding-left: 237px;
+  padding-right: 237px;
+
 }
 
 .h5 {
   font-size: 16px;
   line-height: 1.17;
   font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: var(--main-background-color);
 }
 .descr-img {
   font-size: 16px;
@@ -124,24 +138,30 @@ nav .link {
   color: var(--font-background-color);
   background-color: var(--main-background-color);
   text-align: center;
+  padding-bottom: 30px;
 }
 .h4 {
   line-height: 1.17;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  width: 270px;
+  padding-bottom: 10px;
 }
-.paragraph {  flex-wrap: wrap;
+.paragraph {
+  flex-wrap: wrap;
 
   line-height: 1.71;
   font-size: 16px;
   color: var(--font-background-color);
+  width: 270px;
 }
 .h2 {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .h6 {
@@ -218,6 +238,17 @@ nav .link {
 .menu {
   display: flex;
   gap: 40px;
+  max-width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu1 {
+  display: flex;
+  gap: 40px;
+  max-width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12px;
 }
 
 .buttons {
@@ -246,14 +277,22 @@ nav .link {
   padding: 0;
 }
 
-.logo-with-nav{
+.logo-with-nav {
   display: flex;
   align-items: center;
+  margin-right: 371px;
 }
 .footer-container ul {
   padding: 0;
 }
+.footer-container{
+  padding-top: 60px;
+}
 .our-team {
   display: flex;
   gap: 30px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
