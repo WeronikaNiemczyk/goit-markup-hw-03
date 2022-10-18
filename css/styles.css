@@ -52,12 +52,16 @@ ul {
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
-  
 }
 .button.port {
   line-height: 1.26;
   font-weight: 500;
   background-color: #f5f4fa;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
 }
 .link:hover {
   color: var(--main-link-color);
@@ -117,10 +121,9 @@ nav .link {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
- 
+
   padding-left: 237px;
   padding-right: 237px;
-
 }
 
 .h5 {
@@ -168,6 +171,8 @@ nav .link {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 .foot {
   line-height: 1.71;
@@ -187,6 +192,7 @@ nav .link {
 .descrp {
   line-height: 1.88;
   color: var(--font-background-color);
+  padding-bottom: 20px;
 }
 .link.contact {
   color: var(--font-background-color);
@@ -255,6 +261,7 @@ nav .link {
   display: flex;
   justify-content: center;
   gap: 8px;
+  padding-bottom: 34px;
 }
 .main-portfolio {
   padding-top: 94px;
@@ -285,7 +292,7 @@ nav .link {
 .footer-container ul {
   padding: 0;
 }
-.footer-container{
+.footer-container {
   padding-top: 60px;
 }
 .our-team {
