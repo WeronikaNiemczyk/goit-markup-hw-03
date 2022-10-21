@@ -48,10 +48,13 @@ ul {
   line-height: 1.875;
   font-weight: 700;
   background-color: var(--main-link-color);
-  align-items: center;
+  display: flex;
+  justify-content: center;
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
+  align-items: center;
+  margin: inherit;
 }
 .button.port {
   line-height: 1.26;
@@ -121,8 +124,8 @@ nav .link {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 237px;
+  padding-right: 237px;
 }
 
 .h5 {
